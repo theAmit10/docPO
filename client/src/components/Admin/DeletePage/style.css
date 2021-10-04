@@ -1,0 +1,7 @@
+.delete__box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.delete__box > h1 {
+  margin-top: 10px;
+}

@@ -1,0 +1,30 @@
+.background {
+  background-image: url("https://wallpapercave.com/wp/wp2968511.jpg");
+  height: 100vh;
+  left: 0;
+  top: 0;
+  opacity: 0.6;
+}
+.top__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top__box > input {
+  background: transparent;
+  width: 150px;
+  margin-left: 25px;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.image_box {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+#span_box {
+  display: flex;
+  justify-content: space-between;
+}
