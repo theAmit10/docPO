@@ -23,10 +23,6 @@ app.use('/admin', adminRoutes);
 const doctorRoutes = require('./doctor/route')
 app.use('/doctors', doctorRoutes)
 
-if (process.env.NODE_ENV == "production") {
-    app.use(express.static("client/build"))
-}
-
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => app.listen(port, () => console.log(`server is on port ${port}`)))
